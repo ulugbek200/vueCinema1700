@@ -1,0 +1,130 @@
+@media(max-width: 992px) {
+  .films__content {
+    grid-template-columns: 30% 30%;
+    justify-content: space-evenly;
+  }
+
+  .title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .series__item:nth-of-type(2) {
+    grid-column: span 4;
+  }
+
+
+}
+
+@media(max-width: 756px) {
+  .series__item:nth-of-type(3) {
+    grid-column: span 2;
+  }
+
+  .series__item:nth-of-type(4) {
+    grid-column: span 2;
+  }
+
+  .series__item:nth-of-type(5) {
+    grid-column: span 2;
+  }
+
+  .series__item:nth-of-type(6) {
+    grid-column: span 2;
+  }
+
+  .collections__componet {
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+  }
+
+  .films__content {
+    grid-template-columns: 40%;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width:615px) {
+  .header__nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .header__nav-list {
+    justify-content: space-evenly;
+  }
+  
+  .intro__text,
+  .intro__title,
+  .widow__text,
+  .widow__content>img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .button{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .collections__componet{
+    grid-template-columns: 80%;
+  }
+  
+  .films__content {
+    grid-template-columns: 60%;
+  }
+  
+  .footer__content{
+    justify-content: space-evenly;
+  }
+  .footer__title{
+    margin-top: 15px;
+    
+  }
+  .footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width:450px){
+  .logo>span{
+    display: flex;
+  }
+  .logo{
+    flex-direction: column;
+    align-items: center;
+  }
+  .series__item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .series__title {
+    text-align: center;
+  }
+  
+  .series__item:nth-of-type(3) {
+    grid-column: span 4;
+  }
+
+  .series__item:nth-of-type(4) {
+    grid-column: span 4;
+  }
+  .series__item:nth-of-type(5) {
+    grid-column: span 4;
+  }
+
+  .series__item:nth-of-type(6) {
+    grid-column: span 4;
+  }
+  .collections__componet {
+    grid-template-columns: 100%;
+  }
+  .films__content {
+    grid-template-columns: 90%;
+}
+}
